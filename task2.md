@@ -13,3 +13,10 @@ cp ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
 Windows:
 ssh zoya@192.168.31.141 -i /c/Users/Zoya/.ssh/id_rsa
 
+
+#git-команды:
+git checkout -b task2
+git add .
+git status
+git commit -m 'task2'
+git push --set-upstream origin task2
