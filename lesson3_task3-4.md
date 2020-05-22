@@ -37,7 +37,7 @@ ls
 make -j4
 
 - заставить бинарь node работать в терминале при вводе node из любого каталога в системе.
-sudo nano environment
+sudo nano /etc/environment
     PATH="/opt/node:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/u$
 
 
